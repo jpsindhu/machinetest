@@ -1,0 +1,9 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let singledata of dataList">
+        <div class="images"><img src="/assets/Slices/{{ singledata['poster-image'] }}"></div>
+        <div class="name">{{ singledata.name }}</div>
+      </div>
+    </div>
+</div> 

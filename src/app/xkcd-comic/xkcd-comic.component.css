@@ -1,0 +1,13 @@
+.container {
+  max-width: 441px;
+  background: #000;
+  float: none;
+  margin: auto;
+  width: 100%;
+}
+.images img {
+  width: 118px;
+}
+.name {
+  color: #ccc;
+}
